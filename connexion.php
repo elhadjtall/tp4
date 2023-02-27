@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Connexion</h1>
-    <form action="" medhot="POST">
+    <form action="traitement_connexion.php" medhot="POST">
         <input type="email"     name="email"              placeholder="email"><br><br>
         <input type="password"  name="password"           placeholder="password"><br><br>
         <input type="password"  name="confirmer_password" placeholder="confirmer password"><br><br>
