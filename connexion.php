@@ -1,3 +1,4 @@
+<?php require_once("bdd_con.php") ;?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +10,9 @@
 <body>
     <h1>Connexion</h1>
     <form action="" medhot="POST">
-        <input type="email"     name="email"     placeholder="email"><br><br>
-        <input type="password"  name="password"  placeholder="password"><br><br>
+        <input type="email"     name="email"              placeholder="email"><br><br>
+        <input type="password"  name="password"           placeholder="password"><br><br>
+        <input type="password"  name="confirmer_password" placeholder="confirmer password"><br><br>
         <input type="submit"    value="connexion"> 
 
     </form>
