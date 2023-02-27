@@ -8,7 +8,7 @@ if (isset($_POST['submit']) AND isset($_POST['email']) AND isset($_POST['passwor
 
     // on verifie si le champs est vide
     if (empty($email) OR empty($password) OR empty($confirmer)) {
-        echo "L'un des champs est vide";
+        echo "Remplissez tous les champs";
     }
 }
 
