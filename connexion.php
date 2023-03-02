@@ -9,12 +9,15 @@
     <title>Connexion</title>
 </head>
 <body>
+    
     <header class="main-head">
         <nav>
         <img src="logo.svg" alt="YMoney logo">
         </nav>
         
     </header>
+    <div class="container">
+    <div class="bloc1">
     <form action="" medhot="POST">
     <h1 id="con">Connexion</h1>
        <p><LAbel for="adresse">VOTRE ADRESSE E-MAIL</LAbel></p>
@@ -26,6 +29,11 @@
         <hr></hr>
         <p><label for="creer">JE VEUX CREER UN COMPTE</label></p>
     </form>
+    </div>
+    <div class="bloc2">
+        <p><h2 class="compte">Je veux créer un compte</h2></p>
+    </div>
+    </div>
 </body>
 </html>
 <?php
