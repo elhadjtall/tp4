@@ -9,7 +9,6 @@
     <title>Connexion</title>
 </head>
 <body>
-    
     <header class="main-head">
         <nav>
         <img src="logo.svg" alt="YMoney logo">
@@ -20,6 +19,7 @@
     <div class="bloc1">
     <form action="" medhot="POST">
     <h1 id="con">Connexion</h1>
+    <div class="aligner">
        <p><LAbel for="adresse">VOTRE ADRESSE E-MAIL</LAbel></p>
         <p><input type="email"     name="email"         ></p>
         <p><label for="motdepasse">VOTRE MOT DE PASSE</label></p>
@@ -28,6 +28,7 @@
         <p><input type="submit"    name="submit"        value="CONTINUER"></p>
         <hr></hr>
         <p><label for="creer">JE VEUX CREER UN COMPTE</label></p>
+     </div>
     </form>
     </div>
     <div class="bloc2">
@@ -37,7 +38,7 @@
 </body>
 </html>
 <?php
-if (isset($_POST['submit']) AND issa($_POST['email'])){
+if (isset($_POST['submit']) AND isset($_POST['email'])){
     echo "il existe";
 }
 

@@ -2,6 +2,10 @@
     margin: auto;
     padding: 15px;
     max-width: 1230px;
+    top: 2%;
+}
+body{
+    position: fixed;
 }
 label{
     color: black;
@@ -22,20 +26,30 @@ h1{
     width: 100%;
     margin-top: auto;
 }
+form{
+    position: relative;
+    left: 25%;
+}
 #con{
     margin: 2%;
+    margin-top: 7%;
+    left: 40%;
+}
+.aligner{
+    margin-top: 7%;
 }
 input[type="submit"]{
     background-color: #eec417;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     border-radius: 6px 6px 6px 6px;
     border: 2px solid;
     height: 50px;
     width: 360px;
     cursor: pointer;
+    -webkit-appearance: button;
 }
 label[for="creer"]{
     color: #00b4d5;
@@ -60,11 +74,13 @@ img{
     width: 700px;
     height: 700px;
     background-color: rgb(52, 73, 94, .1);
+    position: relative;
 }
 .bloc2{
     width: 700px;
     height: 700px;
     background-color: aliceblue;
+    position: relative;
 }
 .container{
     display: flex;
@@ -80,6 +96,9 @@ img{
     text-align: center;
     cursor: pointer;
     display: inline-block;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
-    position: relative;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 1.3rem;
 }
