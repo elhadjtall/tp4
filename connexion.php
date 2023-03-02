@@ -11,18 +11,19 @@
 <body>
     <header class="main-head">
         <nav>
-        <h1 id="logo">YMONEY</h1>
+        <img src="logo.svg" alt="YMoney logo">
         </nav>
         
     </header>
     <form action="" medhot="POST">
     <h1 id="con">Connexion</h1>
-       <p><LAbel for="">VOTRE ADRESSE E-MAIL</LAbel></p>
-        <p><input type="email"     name="email"         placeholder="email"></p>
-        <p><label for="">VOTRE MOT DE PASSE</label></p>
-        <p><input type="password"  name="password"      placeholder="password"></p>
+       <p><LAbel for="adresse">VOTRE ADRESSE E-MAIL</LAbel></p>
+        <p><input type="email"     name="email"         ></p>
+        <p><label for="motdepasse">VOTRE MOT DE PASSE</label></p>
+        <p><input type="password"  name="password"      ></p>
         <p><label for="mtp">J'ai oublié mon mot de passe</label></p>
         <p><input type="submit"    name="submit"        value="CONTINUER"></p>
+        <hr></hr>
         <p><label for="creer">JE VEUX CREER UN COMPTE</label></p>
     </form>
 </body>

@@ -17,26 +17,41 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .main-head {
-    background: blue;
-    color: brown;
+    background: #00b4d5;
     height: 70px;
-}
-#logo{
-    text-align: center;
-    color: yellow;
-    margin-top: 0px;
-    margin:auto;
+    width: 100%;
 }
 #con{
     margin: 2%;
 }
 input[type="submit"]{
-    background-color: yellow;
+    background-color: #eec417;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
+    font-weight: bold;
     border-radius: 6px 6px 6px 6px;
     border: 2px solid;
     height: 50px;
     width: 360px;
+    cursor: pointer;
+}
+label[for="creer"]{
+    color: #00b4d5;
+    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+label[for="mtp"]{
+    color: #00b4d5;
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+img{
+    width: 120px;
+    margin-left: 600px;
+    margin-top: 12px;
+    cursor: pointer;
 }
